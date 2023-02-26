@@ -1,0 +1,11 @@
+The task is to perform the operation of removing all the occurrences of a given item/element present in a list
+# Explanation : The input list is [1, 1, 2, 3, 4, 5, 1, 2] and the item to be removed is 1.
+# After removing the item, the output list is [2, 3, 4, 5, 2]
+a=[1,1,2,3,4,5,1,2]
+c=[]
+i=0
+while i<len(a):
+    if a[i]!=1:
+        c.append(a[i])
+    i=i+1
+print(c)
