@@ -1,0 +1,8 @@
+list= [34.67, 12, -94.89, 'Python', 0, 'C#']
+i=0
+c=[]
+while i<len(list):
+    if type(list[i])==int:
+        c.append(list[i])
+    i=i+1
+print(c)
