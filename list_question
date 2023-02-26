@@ -1,0 +1,21 @@
+a=[4,6,4,3,3,4,3,4,3,8]
+# k=3
+# i=0
+# b=[] 
+# while i<len(a): 
+#     c=a.count(i) 
+#     if c>k: 
+#         b.append(i)
+#     i=i+1
+# print(b)
+
+
+list=[1,2,2,2,3,3,4,5,2,3,3]
+i=0
+b=[]
+while i<len(list):
+    n=list.count(list[i])
+    if n>3:
+        b.append(list[i])
+    i=i+1
+print(b)
