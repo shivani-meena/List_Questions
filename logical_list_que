@@ -1,0 +1,190 @@
+# a=[2040,2050,2060,2070,00,000]
+# i=0
+# b=[]
+# while i<len(a):
+#     while a[i]>0:
+#         if a[i]%10!=0:
+#             b.append(a[i])
+#             break
+#         else:
+#             a[i]//=10
+#         i=i+1
+# print(b)
+# # print(a[0]//10)
+
+
+
+# i=0
+# b=[]
+# while i<len(a):
+#     if a[i]!=0:
+#         b.append(a[i])
+#     else:
+#         b.append(a[i])
+#     i=i+1
+# print(b)
+
+
+# #     b=str(a[i])
+#     c=""
+#     j=0
+#     while j<len(b):
+#         if b[j]!="0":
+#             c=c+b[j]
+#         j=j+1
+#     d.append(c)
+#     i=i+1
+# print(d)
+
+
+# a=["my  ","name  ","is  ","shivani"]
+# i=0
+# s=""
+# while i<len(a):
+#     s=s+a[i]
+#     i=i+1
+# print(s)
+
+
+# a="my name is shivani"
+# i=0
+# b=[]
+# s=""
+# while i<len(a):
+#     s=s+a[i]
+#     i=i+1
+# b.append(s)
+# print(b)
+
+
+# a=[2,3,4,5,[4,5,3]]
+# i=0
+# b=[]
+# while  i<len(a):
+#     if type(a[i])==list:
+#         j=0
+#         while j<len(a[i]):
+#             b.append(a[i][j])
+#             j=j+1
+#     else:
+
+
+# a=["12ed","34gt","gh56","12rd"]
+# i=0
+# b=[]
+# while i<len(a):
+#     j=0
+#     n=a[i]
+#     s=""
+#     while j<len(n):
+#         if n[j]>="a" and n[j]<="z":
+#             s=s+n[j]
+#         j=j+1
+#     b.append(s)
+#     i=i+1
+# print(b)
+
+
+#         b.append(a[i])
+#     i=i+1
+# print(b)  
+
+
+# a=["sheetal","pooja","aarti","samiksha"]
+# i=0
+# c=0
+# k=input("enter any character")
+# while i<len(a):
+#     j=0
+#     n=a[i]
+#     while j<len(n[1]):
+#         if n[0]==k:
+#             c=c+1
+#         j=j+1
+#     i=i+1
+# print(c)
+
+
+# a=[103,205,304,101]
+# i=0
+# b=[]
+# while i<len(a):
+#     n=str(a[i])
+#     j=0
+#     c=""
+#     d=""
+#     while j<len(n):
+#         if n[j]!="0":
+#             c=c+n[j]
+#         else:
+#             d=d+n[j]
+#         j=j+1
+#     i=i+1
+#     b.append(int(c+d))
+# print(b)
+
+
+# i=0
+# b=[]
+# while i<len(a):
+#     n=str(a[i])
+#     j=0
+#     c=""
+#     d=""
+#     while j<len(n):
+#         if n[j]!="0":
+#             c=c+n[j]
+#         else:
+#             d=d+n[j]
+#         j=j+1
+#     i=i+1
+#     b.append(int(c+d))
+# print(b)
+
+
+# a="309050"
+# i=0
+# s=""
+# b=""
+# while i<len(a):
+#     if a[i]!="0":
+#         s=s+a[i]
+#     else:
+#         b=b+a[i]
+#     i=i+1
+# print(s+b)
+
+
+# a=["sheetal","shivani","aarti","samiksha"]
+# i=0
+# c=0
+# k=input("enter any character")
+# while i<len(a):
+#     j=0
+#     n=a[i]
+#     while j<len(n[j]):
+#         if n[0]==k:
+#             c=c+1
+#         j=j+1
+#     i=i+1
+# print(c)
+
+
+# a=["sheetal","pooja","aarti","samiksha"]
+# i=0
+# c=0
+# k=input("enter any character")
+# while i<len(a):
+#     j=0
+#     n=a[i]
+#     while j<len(n[j]):
+#         if n[0]==k:
+#             c=c+1
+#         j=j+1
+#     i=i+1
+# print(c)
+
+
+# # while i<len(a):
+# #     n=a[i][:1]
+# #     if k==n:
