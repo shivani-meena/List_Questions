@@ -1,0 +1,87 @@
+# n=[50,40,23,70,56,12,5,10,7]
+# i=0
+# max=0
+# max1=0
+# max2=0
+# while i<len(n):
+#     if n[i]>max:
+#         max=n[i]
+#     if n[i]>max1 and n[i]!=max:
+#         max1=n[i]
+#     if n[i]>max2 and n[i]!=max and n[i]!=max1:
+#         max2=n[i]
+#     i=i+1
+# print(max1)
+# print(max)S
+# print(max2
+
+
+# a=[50,40,23,70,56,45,23,67,90,89]
+# i=0
+# max=0
+# max1=0
+# while i<len(a):
+#     if a[i]>max:
+#         max=a[i]
+#     if a[i]>max1 and a[i]!=max:
+#         max1=a[i]
+#     i=i+1
+# print(max1)
+
+
+# a=[10,23,42,60,54,70]
+# i=0
+# max=0
+# while i<len(a):
+#     if a[i]>max:
+#         max=a[i]
+#     i=i+1
+# print(max)
+
+
+
+# a=[12,30,43,22,11,90,75]
+# i=0
+# max=0
+# while i<len(a):
+#     if a[i]>max:
+#         max=a[i]
+#     i=i+1
+# print(max)
+
+
+# a=[50,89,40,23,70,56,45,23,67,90]
+# i=0
+# max=0
+# max1=0
+# while i<len(a):
+#     if a[i]>max:
+#         max=a[i]
+#     elif a[i]>max1 and a[i]!=max:
+#         max1=a[i]
+#     i=i+1
+# print(max1,max)
+
+
+# i=1
+# s=0
+# while i<=22:
+#     if i%2!=0:
+#         print(i)
+#         s=s+i
+#     i=i+1
+# print(s)
+
+
+
+# a,b,c=map(int,input().split())
+# a=int(input())
+# b=int(input())
+# c=int(input())
+# s=a+b+c
+# if s==180  and min(a,b,c)!=0 and max(a,b,c)!=180:
+#     print("YES")
+# else:
+#     print("NO")
+
+# print(min(a,b,c))
