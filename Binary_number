@@ -1,0 +1,33 @@
+bin_num=[1,0,0,"1",1]
+b=0
+i=-1
+bin=0
+while i>-len(bin_num):
+    bin=bin+bin_num[i]2*b
+    b=b+1
+    i=i-1
+print("binary of",bin_num,"is",bin)
+
+
+
+#a=[1,0,1,0]
+##b=0
+#i=-1
+#bin=0
+#while i>-len(a):
+    #bin=bin+a[i]2*b
+    #b=b+1
+    #i=i-1
+#print("binary of",a,"is",bin)
+
+
+
+bin_num=[1,0,0,1,1,0,1,1]
+b=0
+i=-1
+bin=0
+while i>-len(bin_num):
+    bin=bin+bin_num[i]2*b
+    b=b+1
+    i=i-1
+print("binary of",bin_num,"is",bin)
