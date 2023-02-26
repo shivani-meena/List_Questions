@@ -1,0 +1,167 @@
+# a=[1,2,3]
+# a.extend([3,1])
+# print(a)
+
+# # a=[1,2,3,4]
+# a.clear()
+# print(a)
+
+# i=int(input("number"))
+# b=int(input("number"))
+# while i<=b:
+#     j=1
+#     while j<=10:
+#         print(i*j)
+#         j=j+1
+#     i=i+1
+#     print()
+
+
+# a=[1,2,3,[4,5,6]]
+# i=0
+# s=0
+# while i<len(a):
+#     if type(a[i])==list:
+#         j=0
+#         while j<len(a[i]):
+#             s=s+a[i][j]
+#             j=j+1
+#     else:
+#         s=s+a[i]
+#     i=i+1
+# print(s)
+
+
+
+# a=[1,2,3,4,[1,4,5],[1,2,[3,4],4,5,3,2]]
+# i=0
+# sum=0
+# while i<len(a):
+#     if type(a[i])==list:
+#         j=0
+#         while j<len(a[i]):
+#             if type(a[i][j])==list:
+#                 k=0
+#                 while k<len(a[i][j]):
+#                     sum=sum+a[i][j][k]
+#                     k=k+1
+
+#             else:
+#                 sum=sum+a[i][j]
+#             j=j+1
+#     else:
+#         sum=sum+a[i]
+#     i=i+1
+#print(sum)
+
+
+
+# a=[103,102,104,105,106,107]
+# i=0
+# b=[]
+# while i<len(a):
+#     n=str(a[i])
+#     c=""
+#     d=""
+#     j=0
+#     while j<len(n):
+#         if n[j]!="0":
+#             c=c+n[j]
+#         else:
+#             d=d+n[j]
+#         j=j+1
+#     b.append(int(c+d))
+#     i=i+1
+# print(b)
+
+
+
+# a=[103,102,104,105,106,107]
+# i=0
+# b=[]
+# while i<len(a):
+#     n=str(a[i])
+#     c=""
+#     d=""
+#     j=0
+#     while j<len(n):
+#         if n[j]!="0":
+#             c=c+n[j]
+#         else:
+#             d=d+n[j]
+#         j=j+1
+#     b.append(int(c+d))
+#     i=i+1
+# print(b)
+
+
+# a=[1,2,3,4,5,6]
+# b=[]
+# b.append(a[-1])
+# b.append(a[-2])
+# b.append(a[-3])
+# print(b)
+
+
+
+# a=[1,2,3,4,5,6]
+# i=-2
+# b=[]
+# while i>-len(a)+2:
+#     b.append(a[i])
+#     i=i-1
+# print(b)
+
+
+
+# a=[1,2,8,9,2,5,6]
+# i=-3
+# b=[]
+# while i>-len(a)+1:
+#     b.append(a[i])
+#     i=i-1
+# print(b)
+
+
+
+# a=[4,6,3,7,9,2]
+# i=0
+# sum=0
+# b=int(input("enter number"))
+# while i<len(a):
+#     if b<a[i]:
+#         sum=sum+a[i]
+#     i=i+1
+# print(sum)
+
+
+
+# a=[14,16,24,18,21]
+# i=0
+# k=[]
+# sum=0
+# while i<len(a):
+#     b=str(a[i])
+#     n=b[-1]
+#     k.append(n)
+#     sum=sum+int(n)
+#     i=i+1
+# print(k)
+# print(sum)
+
+
+# a=[14,16,24,18,21]
+# i=0
+# k=[]
+# sum=0
+# sum1=0
+# while i<len(a):
+#     b=str(a[i])
+#     p=b[0]
+#     n=b[-1]
+#     k.append(n)
+#     sum=sum+int(n)
+#     sum1=sum1+int(p)
+#     i=i+1
+# print(k)
+# print(sum,sum1)
