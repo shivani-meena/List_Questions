@@ -1,0 +1,262 @@
+# a=["aaa","aa","aaaa","aaaaa"]
+# i=0
+# max=0
+# while i<len(a):
+#     if len(a[i])>max:
+#         max=len(a[i])
+#         c=a[i]
+#     i=i+1
+# print(c,max)
+
+
+# a=input("Enter Name")
+# i=0
+# b=[]
+# n=int(input("Enter Number"))
+# while i<len(a):
+#     b.append(a[i])
+#     i=i+1
+#     b.append(n*i)
+# print(b)
+
+
+
+# list=["a","b","c"]
+# i=0
+# while i<len(a):
+
+
+# a=["abccd","ab","abd"]
+
+
+# o/p ["egaugnal","si","nohtyp"]
+# a="python is language"
+# b=[]
+# i=-1
+# while i>-len(a):
+#     b.append(a[i])
+#     i=i-1
+# print(b)
+
+
+
+# b=[]
+# c=""
+# d=""
+# e=""
+# i=-1
+# while i>-len(a):
+#     if i==-1:
+#         c=c+a[i]
+#     i=i-1
+# print(c)
+# b.append(c)
+# b.append(d)
+# b.append(e)
+# print(b)
+
+
+
+# a=["hello",10,20,30,10,20,30,40]
+# i=0
+# b=[]
+# while i<len(a):
+#     n=a.count(a[i])
+#     if n>1:
+#         if a[i] not in b:
+#             b.append(a[i])
+#     i=i+1
+# print(b)
+
+
+
+
+# a=["a","b","c","d"]
+# i=0
+# while i<len(a)-1:
+#     if a[i]!="c":
+#         print(a[i],end="")
+#     else:
+#         print(a[i]*2)
+#     i=i+1
+
+
+
+# for i in range(len(a)-1):
+#     if a[i]!="c":
+#         print(a[i],end="  ")
+#     else:
+#         print(a[i]*2)
+
+
+
+
+# a="python is language"
+# b=[]
+# i=-1
+# while i>-len(a):
+#     b.append(a[i])
+#     i=i-1
+# print(b)
+
+
+
+# a=["my","name","is","simi"]
+# i=0
+# n=a[i]
+# b=[]
+# while i<len(a):
+#     j=0
+#     k=[]
+#     while j<len(a[i]):
+#         k.append(a[i][j])
+#         j=j+1
+#     i=i+1
+#     b.append(k)
+# print(b)
+
+
+# numbers_x = [10, 20, 30, 40, 10]
+# i=0
+# b=len(numbers_x)-1
+# if numbers_x[0]==numbers_x[b]:
+#     print("yes")
+# else:
+#     print("noo")
+
+ 
+
+# list1 = [10, 20, 25, 30, 35]
+# list2 = [40, 45, 60, 75, 90]
+# i=0
+# b=[]
+# while i<len(list1):
+#     if list1[i]%2==0:
+#         b.append(list1[i])
+#     else:
+#         b.append(list2[i])
+#     i=i+1
+# print(b)
+
+
+# a=[1,2,4,6,7,9]
+# i=0
+# b=[]
+# while i<len(a):
+#     if a[i]==1 or a[i]==2 or a[i]==4:
+#         b.append(a[i])
+#     i=i+1
+# print(b)
+
+# a=[2,4,0,8,0,7,0]
+# i=0
+# b=[]
+# c=[]
+# while i<len(a):
+#     if a[i]!=0:
+#         b.append(a[i])
+#     if a[i]==0:
+#         c.append(a[i])
+#     i=i+1
+# print(b+c)
+
+
+
+# a=[2,4,7,9,10,12,11]
+# b=[]
+# i=0
+# while i<len(a):
+#     if a[i]==7 or a[i]==9 or a[i]==11:
+#         b.append(a[i])
+#     i=i+1
+# print(b)
+    
+# a=[1,2,3,4,6]
+# a.insert(4,5)
+# print(a)
+
+# a=[1,2,3,4]
+# b=[6,2,3,4]
+# i=0
+# c=[]
+# while i<len(a):
+#     c.append(a[i]*b[i])
+#     i=i+1
+# print(c)
+
+
+
+# a=[103,102,104,105]
+# i=0
+# s=0
+# while i<len(a):
+#     n=str(a[i])
+#     j=0
+#     while j<len(n):
+#         if j==2:
+#             s=s+int(n[j])
+#         j=j+1
+#     i=i+1
+# print(s)
+            
+    
+# a=[103,102,104,105]
+# i=0
+# s=0
+# while i<len(a):
+#     n=str(a[i])
+#     s=s+int(n[-1])
+#     i=i+1
+# print(s)
+            
+
+# a=[1,0,3,0,2,0,4,0,6,0]
+# b=[]
+# c=[]
+# i=0
+# k=0
+# while i<len(a):
+#     if k in a:
+#         # print(a[i])
+#         c.append(a[i])
+#     else:
+#         b.append(a[i])
+#     i=i+1
+# print(b+c)
+        
+
+# a=input("enter name")
+# n=int(input("enter number"))
+# i=0
+# b=[]
+# while i<len(a):
+#     b.append(a[i])
+#     i=i+1
+#     b.append(n*i)
+# print(b)
+
+# o/p ["egaugnal","si","nohtyp"]
+
+
+
+# a="python is language"
+# b=a.split()
+# c=[]
+# i=-1
+# while i>=-len(b):
+#     k=b[i]
+#     s=""
+#     j=-1
+#     while j>=-len(k):
+#         s=s+k[j]
+#         j=j-1
+#     c.append(s)
+#     i=i-1
+# print(c)
+
+
+# a=input("enter number")
+# if "ing" in a:
+#     print(a[:3]+"ly")
+# else:
+#     print(a[:3]+"ing")
