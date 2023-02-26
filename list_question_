@@ -1,0 +1,95 @@
+# while i<len(a):
+#     if a[i]==7 or a[i]==9 or a[i]==11:
+#         b.append(a[i])
+#     i=i+1
+# print(b)
+    
+# a=[1,2,3,4,6]
+# a.insert(4,5)
+# print(a)
+
+# a=[1,2,3,4]
+# b=[6,2,3,4]
+# i=0
+# c=[]
+# while i<len(a):
+#     c.append(a[i]*b[i])
+#     i=i+1
+# print(c)
+
+
+
+# a=[103,102,104,105]
+# i=0
+# s=0
+# while i<len(a):
+#     n=str(a[i])
+#     j=0
+#     while j<len(n):
+#         if j==2:
+#             s=s+int(n[j])
+#         j=j+1
+#     i=i+1
+# print(s)
+            
+    
+# a=[103,102,104,105]
+# i=0
+# s=0
+# while i<len(a):
+#     n=str(a[i])
+#     s=s+int(n[-1])
+#     i=i+1
+# print(s)
+            
+
+# a=[1,0,3,0,2,0,4,0,6,0]
+# b=[]
+# c=[]
+# i=0
+# k=0
+# while i<len(a):
+#     if k in a:
+#         # print(a[i])
+#         c.append(a[i])
+#     else:
+#         b.append(a[i])
+#     i=i+1
+# print(b+c)
+        
+
+# a=input("enter name")
+# n=int(input("enter number"))
+# i=0
+# b=[]
+# while i<len(a):
+#     b.append(a[i])
+#     i=i+1
+#     b.append(n*i)
+# print(b)
+
+# o/p ["egaugnal","si","nohtyp"]
+
+
+
+# a="python is language"
+# b=a.split()
+# c=[]
+# i=-1
+# while i>=-len(b):
+#     k=b[i]
+#     s=""
+#     j=-1
+#     while j>=-len(k):
+#         s=s+k[j]
+#         j=j-1
+#     c.append(s)
+#     i=i-1
+# print(c)
+
+
+# a=input("enter number")
+# if "ing" in a:
+#     print(a[:3]+"ly")
+# else:
+#     print(a[:3]+"ing")
