@@ -1,0 +1,30 @@
+Write a Python program to create a list reflecting the modified run-length encoding from 
+# a given list of integers or a given list of characters. 
+# Original list:
+# [1, 1, 2, 3, 4, 4, 5, 1]
+# List reflecting the modified run-length encoding from the said list:
+# [[2, 1], 2, 3, [2, 4], 5, 1]
+
+a= [1, 1, 2, 3, 4, 4, 5, 1]
+i=0
+b=[]
+ans=[]
+while i<len(a):
+    j=0
+    c=0
+    d=[]
+    while j<len(a):
+        if a[i]==a[j]:
+            c=c+1
+        j=j+1
+    d.append(c)
+    d.append(a[i])
+    if d not in b:
+        b.append(d)
+        if c==1:
+            ans.append(a[i])
+        else:
+            ans.append(d)
+    i=i+1
+print(ans)
+
