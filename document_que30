@@ -1,0 +1,48 @@
+a=[9,1,1,9]
+i=0
+while i<len(a):
+    print(a[i]**2,end="")
+    i=i+1
+
+
+# a=[1,2,3,4,2,3,5,6,7,2,3,1,2,3,2,3]
+# i=0
+# while i<len(a):
+#     n=a.count(i)
+
+
+
+l=[2,-7,5,-64,-14]
+i=0
+count=0
+count1=0
+while i<len(l):
+    if l[i]>0:
+        count=count+1
+    else:
+        count1=count+1
+    i=i+1
+print("positive numbers",count)
+print("negative numbers",count1)
+
+
+i=1
+s1=0
+s2=0
+while i<=20:
+    if i%2==0:
+        s1=s1+i
+    else:
+        s2=s2+i
+    i=i+1
+print("sum of even",s1)
+print("sum of odd",s2)
+
+
+
+
+
+
+
+
+
