@@ -1,0 +1,22 @@
+list=[12, 67, 98, 34]
+# i=0
+# c=[]
+# while i<len(list):
+#     a=list[i]%10
+#     b=list[i]//10
+#     n=a+b
+#     print(n)
+#     c.append(n)   
+#     i=i+1
+# print(c)
+
+
+i=0
+c=[]
+while i<len(list):
+    a=list[i]%10
+    b=list[i]//10
+    n=a+b
+    c.append(n)
+    i=i+1
+print(c)
