@@ -1,0 +1,39 @@
+# Our task is to print the element which occurs 3 consecutive times in a Python list.
+# Input: [4, 5, 5, 5, 3, 8]
+# Output: 5
+a=[4,5,5,4,5,4,1,6]
+i=0
+k=[]
+while i<len(a):
+    j=0
+    c=0
+    while j<len(a):
+        if a[i]==a[j]:
+            c=c+1
+        j=j+1
+    if a[i] not in k:
+        if c>2:
+            k.append(a[i])
+    i=i+1
+print(k)
+print(c)
+
+# a=[1,1,1,64,23,64,22,22,22]
+# i=0
+# b=[]
+# while i<len(a):
+#     j=0
+#     c=0
+#     n=[]
+#     while j<len(a):
+#         if a[i]==a[j]:
+#             c=c+1
+#         j=j+1# n.append(a[i])# n.append(c)
+#     if a[i] not in b:
+#         if c>2:
+#             b.append(a[i])
+#     i=i+1
+# print(b)
+
+
+doc 26
