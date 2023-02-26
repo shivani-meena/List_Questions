@@ -1,0 +1,20 @@
+a=['d', 'e', 'f', 'g', 'h', 'a', 'b', 'c']
+# i=0
+n=3
+# while i<len(a):
+b=a[n:]+a[:n]
+#     i=i+1
+print(b)
+
+# i=0
+# n=3
+# while i<len(a):
+#     b=a[n:]+a[:n]
+#     i=i+1
+# print(b)
+
+
+# a=['d', 'e', 'f', 'g', 'h', 'a', 'b', 'c']
+# # ['f', 'g', 'h', 'a', 'b', 'c', 'd', 'e']
+# b=a[2:]+a[:2]
+# print(b)
