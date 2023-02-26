@@ -1,0 +1,36 @@
+Write a Python program to sum two or more lists, the lengths of the lists may be different. 
+# Original list:
+# [[1, 2, 4], [2, 4, 4], [1, 2]]
+# Sum said lists with different lengths:
+# [4, 8, 8]
+a=[[1, 2, 4], [2, 4, 4], [1, 2]]
+# i=0
+# b=[]
+# while i<len(a):
+#     j=0
+#     s=0
+#     while j<len(a[i]):
+#         s=s+a[i][j]
+#         b.append(s)
+#         j=j+1
+#     i=i+1
+# print(b)
+    
+
+# a=[[1, 2, 4], [2, 4, 4], [1, 2]]
+# x,y,z=a[0],a[1],a[2]
+# i=0
+# s=0
+# n=[]
+# while i<len(x):
+#     j=0
+#     while j<len(y):
+#         k=0
+#         while k<len(z):
+#             s=s+x[i]+y[j]+k[z]
+#             n.append(s)
+#             k=k+1
+#         j=j+1
+#     i=i+1
+# print()
+
