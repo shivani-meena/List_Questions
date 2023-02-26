@@ -1,0 +1,29 @@
+# numbers=[50,40,23,70,56,12,5,10,7]
+# i=0
+# while i<len(numbers):
+#     if numbers[i]>20 and numbers[i]<40:
+#         print(numbers[i])
+#     i=i+1
+
+# a=[1,2,3,4,3,2,3,4,5,6,5,4,3,2]
+# i=0
+# while i<len(a):
+#     c=a.count(5)
+#     i=i+1    
+# print(c)
+
+
+
+# a=["aa","aaa","aaaa","aaaaa"]
+# i=0
+# max=0
+# print(len(a[0]))
+# while i<len(a):
+#     if len(a[i])>max:
+#         max=a[i]
+#     i=i+1
+# print(max,len(a))
+
+
+# a=[36,12,12]
+# print(a.index(12))
