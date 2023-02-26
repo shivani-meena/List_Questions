@@ -1,0 +1,31 @@
+ a=["a","n","t","a","a","t","n","n","a","x","u","g","a","x","a"]
+# i=0
+# b=[]
+# while i<len(a):
+#     j=0
+#     c=0
+#     f=[]
+#     while j<len(a):
+#         if a[i]==a[j]:
+#             c=c+1
+#         j=j+1
+#     if a[i] not in b:
+#         f.append(a[i])
+#         f.append(c)
+#     if f not in b:
+#         b.append(f)
+#     i=i+1
+# print(b)
+
+
+
+# a=[2,3,4,[4,5,3]]
+# i=0
+# b=[]
+# while i<len(a):
+#     j=0
+#     while j<len(a[i]):
+#         b.append(a[i][j])
+#         j=j+1
+#     i=i+1
+# print(b)
