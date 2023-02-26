@@ -1,0 +1,149 @@
+# a=["12ed","34gt","gh56","12rd"]
+# i=0
+# b=[]
+# while i<len(a):
+#     j=0
+#     n=a[i]
+#     s=""
+#     while j<len(n):
+#         if n[j]>="a" and n[j]<="z":
+#             s=s+n[j]
+#         j=j+1
+#     b.append(s)
+#     i=i+1
+# print(b)
+
+
+# a=["12ed","34gt","gh56","12rd"]
+# i=0
+# b=[]
+# c=[]
+# while i<len(a):
+#     j=0
+#     n=a[i]
+#     s=""
+#     k=""
+#     while j<len(n):
+#         if n[j]>="a" and n[j]<="z":
+#             s=s+n[j]
+#         else:
+#             k=k+n[j]
+#         j=j+1
+#     # b.append(s)
+#     c.append(k)
+#     i=i+1
+# print(b)
+
+
+# a=[1,2,3,[3,2,4],4]
+# i=0
+# b=[]
+# c=[]
+# while i<len(a):
+#     if type(a[i])==list:
+#         j=0
+#         while j<len(a[i]):
+#             b.append(a[i][j])
+#             j=j+1
+#     else:
+#         c.append(a[i])
+#     i=i+1
+# k=0
+# s=[]
+# while k<len(b):
+#     l=0
+#     while l<len(c):
+#         n=b[k]*c[l]
+#         l=l+1
+#         s.append(n)
+#     k=k+1
+# print(s)
+
+
+# a=[1,2,3,[3,2,4],4]
+# i=0
+# c=[]
+# while i<len(a):
+#     if type(a[i])==list:
+#         b=a[i]
+#     else:
+#         c.append(a[i])
+#     i=i+1
+# k=0
+# s=[]
+# p=b
+# while k<len(p):
+#     l=0
+#     while l<len(c):
+#         n=b[k]*c[l]
+#         l=l+1
+#         s.append(n)
+#     k=k+1
+# print(s)
+
+
+# a=[1,2,3,[3,2,4],4]
+# i=0
+# c=[]
+# while i<len(a):
+#     if type(a[i])==list:
+#         b=a[i]
+#     else:
+#         c.append(a[i])
+#     i=i+1
+# k=0
+# s=[]
+# p=b
+# while k<len(p):
+#     l=0
+#     while l<len(c):
+#         n=c[l]*b[k]
+#         l=l+1
+#         s.append(n)
+#     k=k+1
+# print(s)
+
+
+# a=[1,2,3,[3,2,4],4]
+# i=0
+# c=[]
+# while i<len(a):
+#     if type(a[i])==list:
+#         b=a[i]
+#     else:
+#         c.append(a[i])
+#     i=i+1
+# k=0
+# s=[]
+# p=b
+# while k<len(p):
+#     l=0
+#     while l<len(c):
+#         n=c[l]*b[k]
+#         l=l+1
+#         s.append(n)
+#     k=k+1
+# print(s)
+
+
+# a=[1,2,3,[3,2,4],4]
+# i=0
+# m=[]
+# c=[]
+# while i<len(a):
+#     if type(a[i])==list:
+#         b=a[i]
+#     else:
+#         c.append(a[i])
+#     i=i+1
+# k=0
+# s=[]
+# p=b
+# while k<len(c):
+#     l=0
+#     while l<len(p):
+#         n=c[k]*p[l]
+#         s.append(n)
+#         l=l+1
+#     k=k+1
+# print(m)
