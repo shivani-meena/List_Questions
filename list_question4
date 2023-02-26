@@ -1,0 +1,39 @@
+#1st maximum 2nd maximum 3rd maximum
+n=[20,45,23,55,75,83,10]
+i=0
+max=0
+while i<len(n):
+    if n[i]>max:
+        max=n[i]
+    i=i+1
+i=0
+max1=0
+while i<len(n):
+    if n[i]> max1 and n[i]!=max:
+        max1=n[i]
+    i=i+1
+i=0
+max2=0
+while i<len(n):
+    if n[i]>max2 and n[i]!=max1 and n[i]!=max:
+        max2=n[i]
+    i=i+1
+print("maximum",max)
+print("second maximum",max1)
+print("third maximum",max2)
+
+
+# n=[20,45,23,55,75,83,10]
+# i=0
+# max=0
+# max1=0
+# max2=0
+# while i<len(n):
+#     if n[i]>max:
+#         max=n[i]
+#     elif n[i]>max1 and n[i]!=max:
+#         max1=n[i]
+#     elif n[i]>max2 and n[i]!=max1 and n[i]!=max:
+#         max2=n[i]
+#     i=i+1
+# print(max,max1,max2)
